@@ -11,11 +11,20 @@
 <body>
   <!--/// HEADER /// -->
   <header>
+
+  <!--/// Social Media Bar //-->
+    <div class="social">
+      <nav>
+        <a href="https://www.twitter.com/ruthmesfun"><img src="images/twitter.png"></a>
+        <a href="https://www.facebook.com/ruth.yoSef5678"><img src="images/facebook.png"></a>
+        <a href="https://www.linkedin.com/in/ruthmesfun"><img src="images/link-grey.png" class= "linkedin"></a>
+      </nav>   
+    </div>
+  <!--/// End of Social Media Bar ///-->
     <!--/// Nav Bar ///-->
     <div id="nav_bar">
       <nav>
         <a href="index.html">HOME</a>
-        <a href="blog.html">BLOG</a>
         <a href="projects.html">PORTFOLIO</a>
         <a href="about.html">ABOUT</a>
         <a href="contact.html">CONTACT</a>
@@ -27,7 +36,7 @@
     <div>
       <a href="index.html" id="logo">
         <h1>RUTH I MESFUN</h1> 
-        <h2>Computer Science Teacher | Social Entrepreneur </h2>
+        <h2>Computer Science Teacher | Flatiron CS Educator Fellow </h2>
       </a>
     </div>
     <!--// End of Title & Logo //-->
@@ -35,18 +44,13 @@
 
   <!--// End of HEADER //-->
 
-  <!--/// Social Media Bar //-->
-  <div class="social">
-    <a href="#">Twitter</a>
-    <a href="#">Facebook</a>
-    <a href="#">Linkedin</a>   
-  </div>
-  <!--/// End of Social Media Bar ///-->
+
   
   <!-- /// Contact Form /// -->
   <div id="wrapper">
-    <section>
-    <h3>For general inquiries, comments, interviews, or consultation please fill out the attached form for direct and expediate response from me.</h3>
+    <section class= "wrapper clearfix contact">
+    <div>
+    <h3>For general inquiries, comments, interviews, or consultation please fill out the attached form for direct and expediate response from me. (This is only a test, please odnt use this contact form)</h3>
 
       <form action="#" method="post">
         <label for="fullname">Name</label>
@@ -55,17 +59,21 @@
         <input type= "email" id="email" name="email" placeholder="your email" required>
         <label for="phone">Phone</label>
         <input type="tel" id="phone" name="phone" placeholder="your phone number (optional)">
+        
+        <section class="message">
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="10"></textarea>
+        <textarea id="message" name="message" rows="25" cols="50"></textarea>
         <input type="submit" value="send">
+        <section class="message">
       </form>
+    </div>
     </section>
   </div>
 
   <!-- /// FOOTER /// -->
   <footer>
   <!--/// Social Media Footer ///-->
-    <section>
+  <section class="wrapper">
     <div class="social-footer">
       <a href="twitter.com/ruthmesfun"><img src="images/twitter-wrap.png" alt="twitter"></a>
       <a href="facebook.com"><img src="images/facebook-wrap.png" alt="facebook"></a>
